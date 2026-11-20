@@ -1,0 +1,10 @@
+node_modules/
+dist/
+data/
+.aiproject/
+.env
+.env.*
+!.env.example
+*.log
+*.bak
+*.bak.*

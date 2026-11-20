@@ -1,0 +1,208 @@
+/* 社区集市：更紧凑的信息列表，少量像素装饰。 */
+:root{color:#333b3d;background:#f6f7f8;font-size:14px}.sidebar{width:205px;padding:25px 17px;background:#fafbfb;border-color:#e3e7e8}.main{margin-left:205px}.brand{gap:9px}.brand b{font-size:21px;color:#32423d}.brand small{font-size:10px;color:#76817d;letter-spacing:1px}.brand-mark{background:#4d7060;border-radius:3px;width:33px;height:33px;box-shadow:3px 3px 0 #d5e0da}.pixel-brand{font-family:SimSun,serif;font-size:23px}.nav-label{font-size:12px;color:#8a9491;letter-spacing:0;margin:35px 14px 12px}nav button{font-size:13px;border-radius:4px;padding:11px 12px;color:#67716e}nav button.selected{background:#e5ede8;color:#3b6951}nav button:hover{background:#edf1ee}.side-note{padding-left:10px}.side-note>svg{color:#75907e}.side-note strong{color:#637267}.account{border-color:#e1e6e2}header{height:66px;padding:0 32px;border-color:#e2e7e5}.breadcrumb{font-size:12px;color:#8a9690}.breadcrumb span{color:#46564c}.header-actions{gap:18px}.env-tag{font-size:11px}.balance{font-size:13px}main{padding:30px 32px 15px;max-width:1500px}.page-heading{margin-bottom:20px}.eyebrow{display:none}h1{font-size:25px;font-weight:600;letter-spacing:0}.page-heading p:last-child{font-size:13px;color:#7c8580;margin-top:8px}.date-tag{font-size:11px;color:#87928c}.community-welcome{display:flex;align-items:center;gap:20px;background:#edf3ee;border:1px solid #dbe5dc;border-radius:5px;padding:20px 25px;margin-bottom:27px}.pixel-cat{width:48px;height:44px;flex-shrink:0;image-rendering:pixelated}.community-welcome strong{font-size:15px;font-weight:600;color:#3f5d49}.community-welcome p{font-size:12px;margin-top:7px;color:#778377;line-height:1.7}.welcome-stamp{font:10px Consolas,monospace;color:#819581;letter-spacing:1px;margin-left:auto;white-space:nowrap}.market-layout{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:25px;align-items:start}#catalog{min-width:0}.catalog-heading{margin-bottom:15px}.catalog-heading h2{font-size:15px}.catalog-heading h2 small{color:#8a9690;font-size:11px}.search{border:1px solid #dfe5e1;border-radius:4px;padding:8px 10px}.search input{font-size:12px;width:145px}.filters{gap:0;margin-bottom:0;border-bottom:2px solid #dfe5e1}.filters button{border-radius:0;font-size:12px;padding:12px 16px;color:#7a857e}.filters button.active{background:transparent;color:#39664c;border-bottom:2px solid #537e61;margin-bottom:-2px}.product-grid{display:block;background:#fff;border:1px solid #e0e5e2;border-top:0;border-radius:0 0 4px 4px;overflow:hidden}.list-caption{display:grid;grid-template-columns:1fr 75px 100px;gap:12px;background:#fafbfa;padding:11px 18px;font-size:11px;color:#909a94;border-bottom:1px solid #e5e9e6}.list-caption>span:not(:first-child){text-align:right}.product{display:flex;gap:15px;align-items:center;border:0;border-bottom:1px solid #e8ece9;border-radius:0;padding:22px 18px;transition:background .15s}.product:last-child{border-bottom:0}.product:hover{transform:none;background:#fafcf9;border-color:#e8ece9}.product-icon{width:42px;height:42px;border-radius:5px}.product-icon.api{background:#e6eee9;color:#6e927b}.product-icon.code{background:#f3eddf;color:#b1955f}.product-icon.service{background:#e9edf4;color:#8196b4}.product-copy{flex:1;min-width:0}.product h3{font-size:14px;margin-bottom:7px;font-weight:600}.product h3 button{padding:0;text-align:left;line-height:1.6}.product h3 button:hover{color:#477d58;text-decoration:underline;text-underline-offset:4px}.product-copy>p{font-size:12px;color:#858e88;line-height:1.75;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.product-meta{font-size:10px;margin:10px 0 0;gap:6px;color:#8b938e;align-items:center}.product-meta span+span{border:0;padding:0}.product-meta span:last-child{margin-left:12px;color:#a0a69f}.category-dot{width:6px;height:6px;background:#78a787}.category-dot.code{background:#c4a665}.category-dot.service{background:#8ea2c1}.quantity{width:65px;text-align:right;flex-shrink:0}.quantity b{display:block;font-size:13px;font-weight:500;color:#626e66;font-family:Consolas,monospace}.quantity small{display:block;color:#9ba29d;font-size:10px;margin-top:4px}.product-bottom{width:92px;flex-shrink:0;border:0;padding:0;display:flex;align-items:flex-end;flex-direction:column;gap:9px}.product-bottom strong{font-size:17px;font-weight:500;letter-spacing:0;color:#48574d}.product-bottom button{font-size:10px;color:#6d9277;gap:2px}.market-rail{display:grid;gap:18px;padding-top:0}.rail-box{background:#fff;border:1px solid #e0e5e2;border-radius:4px;padding:17px}.rail-heading{font-size:13px;font-weight:600;color:#56675a;margin-bottom:15px;display:flex;justify-content:space-between}.rail-heading>span{font-size:9px;background:#f0f3ed;color:#91a287;padding:2px 5px;font-weight:400}.rail-box>p{font-size:12px;line-height:1.9;color:#8b938c;margin-bottom:10px}.rail-box>a{border-top:1px solid #e8ede6;margin-top:14px;padding-top:13px;display:flex;justify-content:space-between;align-items:center;font-size:11px;color:#63826a}.rail-box dl{margin:0}.rail-box dl>div{display:flex;justify-content:space-between;margin-top:13px;font-size:12px}.rail-box dt{color:#8e978f}.rail-box dd{color:#5d7564;margin:0;font-family:Consolas,monospace}.guide p{font-size:11px}.guide b{font:11px Consolas,monospace;color:#9cae96;margin-right:7px}.pixel-note{display:flex;align-items:center;justify-content:center;gap:10px;padding:8px 0}.pixel-note svg{width:36px;height:33px}.pixel-note p{font-size:11px;color:#8b998d}.pixel-note span{display:block;font-size:10px;color:#a1aba2;margin-top:4px}.primary{background:#587d63;border-radius:4px}.primary:hover:not(:disabled){background:#45694f}.secondary{border-color:#d9e2da;color:#66836c;border-radius:4px}.panel,.stats>div{border-color:#e0e5e2;border-radius:5px}.stats strong{font-size:26px}.panel-heading span{font-size:11px}.order-info p,.table-actions button{color:#6b8d74}.modal{border-radius:7px}.modal-icon{background:#e8f0e9;color:#63836b;border-radius:5px}.modal input,.modal select,.modal textarea{border-radius:4px}.receipt,.credential{background:#f1f5f0;border-radius:4px}.receipt strong,.credential code,.credential button,.text-button{color:#63886b}.modal details{color:#75927a}.modal-backdrop{backdrop-filter:blur(1px);background:#24372a55}.hint{color:#879189}.toast{background:#3f5948;border-radius:5px}footer{font-size:10px;color:#939c95;margin-top:30px;border-color:#e0e6e1}input:focus,textarea:focus,select:focus{outline-color:#a7c3ad}button:focus-visible,a:focus-visible,summary:focus-visible{outline-color:#7eaa88}.empty{color:#85958a}@media(max-width:1200px){.market-layout{grid-template-columns:minmax(0,1fr) 205px;gap:16px}.product{gap:10px;padding:18px 12px}.product-icon{width:35px;height:35px}.quantity{width:50px}.product-bottom{width:80px}}@media(max-width:1000px){.market-layout{grid-template-columns:1fr}.market-rail{grid-template-columns:repeat(3,1fr)}.pixel-note{display:none}}@media(max-width:800px){.sidebar{width:100%}.main{margin:0}.market-rail{grid-template-columns:1fr}.welcome-stamp{display:none}.product-grid{display:block}.community-welcome{padding:15px}.product-copy>p{-webkit-line-clamp:1}.quantity{display:none}.list-caption{grid-template-columns:1fr 85px}.list-caption>span:nth-child(2){display:none}.product h3{font-size:13px}.page-heading{margin-top:0}}
+
+/* 蓝色主题 */
+:root {
+  --theme-main: #3568a8;
+  --theme-hover: #285184;
+  --theme-light: #edf3fa;
+  --theme-border: #d5e1ef;
+}
+
+.primary,
+.brand-mark {
+  background: var(--theme-main);
+}
+
+.primary:hover:not(:disabled) {
+  background: var(--theme-hover);
+}
+
+nav button.selected,
+.product-icon.api,
+.modal-icon {
+  color: var(--theme-main);
+  background: var(--theme-light);
+}
+
+.filters button.active {
+  color: var(--theme-main);
+  border-bottom-color: var(--theme-main);
+}
+
+.community-welcome {
+  background: var(--theme-light);
+  border-color: var(--theme-border);
+}
+
+.community-welcome strong,
+.product h3 button:hover,
+.product-bottom button,
+.rail-box > a,
+.text-button,
+.receipt strong,
+.credential code,
+.credential button {
+  color: var(--theme-main);
+}
+
+.secondary {
+  color: var(--theme-main);
+  border-color: var(--theme-border);
+}
+
+.receipt,
+.credential {
+  background: var(--theme-light);
+}
+
+/* 天蓝与淡紫主题 */
+:root {
+  --theme-main: #287cab;
+  --theme-hover: #20658c;
+  --theme-light: #edf7ff;
+  --theme-border: #cfe5f5;
+  --theme-purple: #7963a6;
+  --theme-lilac: #f3effb;
+  background: #f8f9fd;
+}
+
+.sidebar {
+  background: #fcfbff;
+  border-color: #e7e2f0;
+}
+
+.brand-mark {
+  background: var(--theme-main);
+  box-shadow: 3px 3px 0 #e4dcf5;
+}
+
+nav button.selected {
+  background: #eaf5ff;
+  color: var(--theme-main);
+}
+
+nav button:hover {
+  background: var(--theme-lilac);
+}
+
+.community-welcome {
+  background: linear-gradient(110deg, #eaf7ff, #f3edfc);
+  border-color: #dce3f2;
+}
+
+.community-welcome strong {
+  color: #466a92;
+}
+
+.community-welcome p {
+  color: #697a90;
+}
+
+.welcome-stamp {
+  color: #8a77ac;
+}
+
+.primary {
+  background: var(--theme-main);
+}
+
+.primary:hover:not(:disabled) {
+  background: var(--theme-hover);
+}
+
+.secondary {
+  color: var(--theme-purple);
+  border-color: #ded4ee;
+  background: #fcfaff;
+}
+
+.filters button.active {
+  color: var(--theme-main);
+  border-bottom-color: #72b9e6;
+}
+
+.product:hover {
+  background: #faf8ff;
+}
+
+.product-icon.api {
+  color: #438bb6;
+  background: #eaf6ff;
+}
+
+.product-icon.code {
+  color: #9272ba;
+  background: #f2ebfc;
+}
+
+.product-icon.service {
+  color: #7386b8;
+  background: #edf0fc;
+}
+
+.category-dot.api {
+  background: #79bde8;
+}
+
+.category-dot.code {
+  background: #b69ad9;
+}
+
+.category-dot.service {
+  background: #9baae0;
+}
+
+.product h3 button:hover,
+.product-bottom button,
+.rail-box > a {
+  color: var(--theme-main);
+}
+
+.rail-heading {
+  color: #70628b;
+}
+
+.rail-heading > span {
+  color: #8d74ad;
+  background: var(--theme-lilac);
+}
+
+.modal-icon {
+  color: var(--theme-purple);
+  background: var(--theme-lilac);
+}
+
+.receipt {
+  background: #eff8ff;
+}
+
+.credential {
+  background: var(--theme-lilac);
+}
+
+.receipt strong {
+  color: var(--theme-main);
+}
+
+.credential code,
+.credential button,
+.text-button {
+  color: var(--theme-purple);
+}
+
+.toast {
+  background: #526d96;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline-color: #a8cfee;
+}
+
+button:focus-visible,
+a:focus-visible,
+summary:focus-visible {
+  outline-color: #b6a1da;
+}
